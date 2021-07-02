@@ -1,0 +1,28 @@
+body{
+    background: #181818;
+    color: #fff;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.h-50{
+    height: 50px !important;
+}
+
+.card-text{
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.card-text:hover{
+color: #acecff;
+}
+
+@media (max-width: 615px) {
+    .cards{
+        justify-content: center !important;
+    }
+}
