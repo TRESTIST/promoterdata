@@ -12,15 +12,16 @@ let database = [
 let databaseBusiness = [
   {
     id: "Бизнес",
-    name: "",
-    type: "",
-    number: "",
+    name: "NO",
+    type: "Салон красоты",
+    number: "+996554515411",
   },
 ];
 
 const $cards = document.querySelector(".cards");
 const $rab = document.querySelector(".rab");
 const $bzn = document.querySelector(".bzn");
+
 
 $rab.addEventListener("click", () => {
     cardTemplate(database)
